@@ -3,6 +3,10 @@ import { useAppConfig } from '#imports'
 import { AreaChart } from 'lucide-vue-next'
 
 const { title } = useAppConfig()
+
+definePageMeta({
+  layout: 'landing',
+})
 </script>
 
 <template>
