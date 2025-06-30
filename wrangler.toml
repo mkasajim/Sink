@@ -13,6 +13,9 @@ directory = "dist/public"
 [ai]
 binding = "AI"
 
+[functions]
+node_compat = true
+
 [[analytics_engine_datasets]]
 binding = "ANALYTICS"
 dataset = "sink"
